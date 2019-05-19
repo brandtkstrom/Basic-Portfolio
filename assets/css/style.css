@@ -1,4 +1,3 @@
-
 body {
     background-image: url("../images/background.png");
     margin: 0;
@@ -35,7 +34,8 @@ nav {
     float: right;
     padding-top: 20px;
 }
-ul { 
+
+ul {
     display: inline;
     margin: 0 auto;
 }
@@ -46,7 +46,7 @@ li {
     padding: 5px;
 }
 
-a {
+nav a {
     color: #cccccc;
     text-decoration: none;
     margin: 0;
@@ -55,12 +55,12 @@ a {
     height: 100%;
 }
 
-a:visited {
+nav a:visited {
     color: #777777;
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     background-color: #4aaaa5;
     color: #ffffff;
     text-decoration: none;
@@ -97,7 +97,7 @@ header {
 }
 
 #header-content {
-    
+
     width: 960px;
     margin: 0 auto;
     clear: both;
@@ -114,6 +114,8 @@ header {
 #main-content {
     margin: 0;
     padding: 20px;
+    clear: both;
+    overflow: hidden;
 }
 
 #photo {
@@ -138,4 +140,57 @@ footer p {
     bottom: 0;
     text-align: center;
     font-size: 8pt;
+}
+
+.portfolio-project {
+    display: inline;
+    /* padding-bottom: 10px; */
+    /* margin: 20px; */
+}
+
+.portfolio-project img {
+    margin: 30px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.portfolio-project div {
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.portfolio-project a {
+    width: 300px;
+}
+
+.portfolio-project p {
+    position: relative;
+    top: 0;
+
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+figure {
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 10px 60px 40px 0;
+}
+
+figcaption {
+    text-align: center;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+    bottom: 15px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
