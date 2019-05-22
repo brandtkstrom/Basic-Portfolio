@@ -128,7 +128,7 @@ header {
 footer {
     color: #cccccc;
     background-color: #666666;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
@@ -141,34 +141,6 @@ footer p {
     bottom: 0;
     text-align: center;
     font-size: 8pt;
-}
-
-.portfolio-project {
-    display: inline;
-    /* padding-bottom: 10px; */
-    /* margin: 20px; */
-}
-
-.portfolio-project img {
-    margin: 30px;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.portfolio-project div {
-    /* margin: 0; */
-    /* padding: 0; */
-}
-
-.portfolio-project a {
-    width: 300px;
-}
-
-.portfolio-project p {
-    position: relative;
-    top: 0;
-
 }
 
 hr {
