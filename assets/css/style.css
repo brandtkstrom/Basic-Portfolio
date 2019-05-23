@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+p {
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
 body {
     background-image: url("../images/background.png");
     margin: 0;
