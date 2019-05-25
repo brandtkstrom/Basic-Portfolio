@@ -9,6 +9,7 @@ p {
     line-height: 150%;
     margin-bottom: 20px;
 }
+
 html,
 body {
     height: 100%;
@@ -141,13 +142,14 @@ header {
     float: left;
     height: 200px;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 footer {
     color: #cccccc;
     background-color: #666666;
     width: 100%;
-    height: 2.5rem;
+    height: 40px;
     border-top: 5px solid #4aaaa5;
     flex-shrink: 0;
 }
@@ -158,6 +160,7 @@ footer p {
     bottom: 0;
     text-align: center;
     font-size: 8pt;
+    margin: 0;
 }
 
 hr {
