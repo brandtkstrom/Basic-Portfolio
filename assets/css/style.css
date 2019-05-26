@@ -106,7 +106,7 @@ button {
 }
 
 button:hover {
-    border: 1px solid #777;
+    border-style: inset;
 }
 
 header {
@@ -133,7 +133,7 @@ header {
     clear: both;
     overflow: hidden;
     background-color: #fff;
-    border-color: #ddd;
+    border: 1px solid #ddd;
 }
 
 #photo {
