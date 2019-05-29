@@ -166,6 +166,7 @@ footer {
     padding: 30px;
     background-color: #fff;
     border: 1px solid #ddd;
+    border-radius: 10px;
 }
 
 .flex-container {
