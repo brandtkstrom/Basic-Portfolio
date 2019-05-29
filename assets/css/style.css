@@ -135,13 +135,18 @@ footer {
     margin: 0 auto;
 }
 
+/* CSS class styles */
+
+.header,
+.footer {
+    padding-left: calc(100vw - 100%);
+}
+
 .header {
     height: 80px;
     background-color: #fff;
     border-bottom: 2px solid #ccc;
 }
-
-/* CSS class styles */
 
 .footer {
     height: 60px;
@@ -172,6 +177,7 @@ footer {
 .flex-container {
     flex: 1 0 auto;
     flex-wrap: wrap;
+    padding-left: calc(100vw - 100%);
 }
 
 /* Tag ID styles */
