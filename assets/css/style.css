@@ -92,8 +92,8 @@ textarea {
 input,
 textarea {
     border: 1px solid #ddd;
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 15px;
 }
 
