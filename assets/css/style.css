@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    background-image: url("../images/background.png");
+    background-image: url('../images/background.png');
     color: #777;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -152,19 +152,26 @@ footer {
 
 .footer {
     height: 60px;
-    color: #ccc;
     background-color: #666;
     border-top: 8px solid #4aaaa5;
     flex-shrink: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    outline: none;
 }
 
-.footer p {
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    top: 30px;
-    text-align: center;
-    position: relative;
+.footer a {
+    text-decoration: none;
+}
+
+.footer i {
+    color: #ddd;
+    margin: 10px 5px 0px 5px;
+}
+
+.footer i:hover {
+    color: #fff;
 }
 
 .content {
@@ -180,6 +187,11 @@ footer {
     flex: 1 0 auto;
     flex-wrap: wrap;
     padding-left: calc(100vw - 100%);
+}
+
+.mail {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Tag ID styles */
