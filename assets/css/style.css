@@ -116,6 +116,7 @@ button:active {
 }
 
 figure {
+    position: relative;
     width: 300px;
     margin: 30px;
 }
@@ -128,6 +129,17 @@ figcaption {
     padding: 10px 0 10px 0;
     bottom: 15px;
     width: 100%;
+}
+
+figure .github {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    color: #444;
+}
+
+figure .github:hover {
+    color: purple;
 }
 
 header,
